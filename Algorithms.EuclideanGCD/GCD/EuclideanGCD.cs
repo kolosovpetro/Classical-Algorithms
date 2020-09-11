@@ -1,0 +1,26 @@
+﻿namespace Algorithms.EuclideanGCD.GCD
+{
+    public static class EuclideanGcd
+    {
+        public static int CalculateGcd(int m, int n)
+        {
+            if (m < n) Swap(ref m, ref n);
+
+            while (n != 0)
+            {
+                var r = m % n;
+                m = n;
+                n = r;
+            }
+
+            return m;
+        }
+
+        private static void Swap(ref int a, ref int b)
+        {
+            var temp = a;
+            a = b;
+            b = temp;
+        }
+    }
+}
