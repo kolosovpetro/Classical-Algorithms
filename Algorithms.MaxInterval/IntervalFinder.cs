@@ -10,24 +10,25 @@ namespace Algorithms.MaxInterval
         /// </summary>
         public static int[] FindInterval(int[] array, int min)
         {
-            var resultList = new List<int>();
+            int sum = 0, start = 0, end = 0, currentSum = 0;
 
             for (var i = 0; i < array.Length; i++)
             {
                 if (array[i] < min) continue;
-                var tempList = new List<int>();
-
+                var currentStart = i;
                 while (array[i] >= min && i < array.Length - 1)
                 {
-                    tempList.Add(array[i]);
+                    currentSum += array[i];
                     i++;
                 }
-
-                if (resultList.Sum() < tempList.Sum())
-                    resultList = tempList;
+                var currentEnd = i;
+                if (sum >= currentSum) continue;
+                start = currentStart;
+                end = currentEnd;
+                sum = currentSum;
             }
 
-            return resultList.ToArray();
+            return new[] {start, end - 1, sum};
         }
     }
 }
