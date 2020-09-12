@@ -1,7 +1,4 @@
-﻿using System.Collections.Generic;
-using System.Linq;
-
-namespace Algorithms.MaxInterval
+﻿namespace Algorithms.MaxInterval
 {
     public static class IntervalFinder
     {

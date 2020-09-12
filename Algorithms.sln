@@ -22,6 +22,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Algorithms.CaesarCipher", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Algorithms.CaesarCipher.Tests", "Algorithms.CaesarCipher.Tests\Algorithms.CaesarCipher.Tests.csproj", "{35FE149A-5C7A-4374-B193-F4FC175CAFB0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Algorithms.MaximumSubarray", "Algorithms.MaximumSubarray\Algorithms.MaximumSubarray.csproj", "{462EDE76-DF04-4DDF-810A-26E762CDD704}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Algorithms.MaximumSubarray.UI", "Algorithms.MaximumSubarray.UI\Algorithms.MaximumSubarray.UI.csproj", "{246D021B-1484-488D-B068-5A3C8748F3AA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -72,5 +76,13 @@ Global
 		{35FE149A-5C7A-4374-B193-F4FC175CAFB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{35FE149A-5C7A-4374-B193-F4FC175CAFB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{35FE149A-5C7A-4374-B193-F4FC175CAFB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{462EDE76-DF04-4DDF-810A-26E762CDD704}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{462EDE76-DF04-4DDF-810A-26E762CDD704}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{462EDE76-DF04-4DDF-810A-26E762CDD704}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{462EDE76-DF04-4DDF-810A-26E762CDD704}.Release|Any CPU.Build.0 = Release|Any CPU
+		{246D021B-1484-488D-B068-5A3C8748F3AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{246D021B-1484-488D-B068-5A3C8748F3AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{246D021B-1484-488D-B068-5A3C8748F3AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{246D021B-1484-488D-B068-5A3C8748F3AA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
