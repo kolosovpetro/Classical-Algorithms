@@ -4,7 +4,7 @@ namespace Algorithms.SieveOfEratosthenes.SieveOfEratosthenes
 {
     public static class PrimeSieve
     {
-        private static bool[] SieveOfEratosthenes(int upperBound)
+        public static bool[] SieveOfEratosthenes(int upperBound)
         {
             var primes = new bool[upperBound + 1];
 

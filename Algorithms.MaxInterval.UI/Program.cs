@@ -6,9 +6,11 @@ namespace Algorithms.MaxInterval.UI
     {
         private static void Main()
         {
-            var arr = new[] {1, 3, 5, 2, 7, 9, 3, 2, 11};
+            var arr = new[] {-2, -3, 4, -1, -2, 1, 5, -3};
+            var max = MaximumSubarray.MaxSubarray.MaximumSubarray.KadaneAlgorithm(arr);
+            Console.WriteLine($"Maximum sub sum: {max}");
 
-            var subarray = IntervalFinder.FindInterval(arr, 3);
+            var subarray = IntervalFinder.FindInterval(arr, max);
             foreach (var value in subarray)
             {
                 Console.Write(value + " ");

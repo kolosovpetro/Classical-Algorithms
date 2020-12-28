@@ -11,8 +11,6 @@ namespace Algorithms.MaximumSubarray.UI
             Console.WriteLine(subArraySumDivideConquer);
             var subArraySumKadane = MaxSubarray.MaximumSubarray.KadaneAlgorithm(arr);
             Console.WriteLine(subArraySumKadane);
-
-
         }
     }
 }

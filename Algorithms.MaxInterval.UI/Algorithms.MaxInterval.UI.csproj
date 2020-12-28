@@ -6,6 +6,7 @@
     </PropertyGroup>
 
     <ItemGroup>
+      <ProjectReference Include="..\Algorithms.MaximumSubarray\Algorithms.MaximumSubarray.csproj" />
       <ProjectReference Include="..\Algorithms.MaxInterval\Algorithms.MaxInterval.csproj" />
     </ItemGroup>
 
